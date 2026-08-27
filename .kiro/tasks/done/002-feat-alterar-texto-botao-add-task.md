@@ -24,10 +24,10 @@ Alterar o texto exibido no botão de submissão do formulário de adicionar tare
 
 ## Critério de Aceite
 
-- [ ] O botão que atualmente exibe o texto **"Adicionar Nova Tarefa"** deve passar a exibir **"Add New Task"**
-- [ ] Nenhuma outra alteração visual ou funcional deve ser introduzida
-- [ ] A aplicação deve compilar e funcionar corretamente após a mudança
-- [ ] O botão deve continuar com as mesmas classes CSS (`btn btn-block success`)
+- [x] O botão que atualmente exibe o texto **"Adicionar Nova Tarefa"** deve passar a exibir **"Add New Task"**
+- [x] Nenhuma outra alteração visual ou funcional deve ser introduzida
+- [x] A aplicação deve compilar e funcionar corretamente após a mudança
+- [x] O botão deve continuar com as mesmas classes CSS (`btn btn-block success`)
 
 ## Detalhes Técnicos
 
@@ -52,14 +52,14 @@ Trecho esperado:
 
 > Marque cada item conforme for concluindo durante a implementação.
 
-- [ ] Verificar se está no branch `ia-main`
-- [ ] Mover esta task para `.kiro/tasks/doing/`, fazer commit e push
-- [ ] Criar o branch `002-feat-alterar-texto-botao-add-task` a partir de `ia-main`
-- [ ] Alterar o texto do botão em `client/src/components/AddTask.jsx` de `"Adicionar Nova Tarefa"` para `"Add New Task"`
-- [ ] Verificar se a aplicação compila sem erros
-- [ ] Confirmar que nenhuma outra alteração foi introduzida
-- [ ] Fazer commit e push das alterações no branch da task
-- [ ] Informar ao PO que a task está concluída e pronta para encerramento
+- [x] Verificar se está no branch `ia-main`
+- [x] Mover esta task para `.kiro/tasks/doing/`, fazer commit e push
+- [x] Criar o branch `002-feat-alterar-texto-botao-add-task` a partir de `ia-main`
+- [x] Alterar o texto do botão em `client/src/components/AddTask.jsx` de `"Adicionar Nova Tarefa"` para `"Add New Task"`
+- [x] Verificar se a aplicação compila sem erros
+- [x] Confirmar que nenhuma outra alteração foi introduzida
+- [x] Fazer commit e push das alterações no branch da task
+- [x] Informar ao PO que a task está concluída e pronta para encerramento
 
 > ⚠️ Ao finalizar todos os itens acima, avisar ao PO para que ele possa encerrar a task.
 
@@ -71,13 +71,13 @@ Trecho esperado:
 
 Ao ser notificado pelo agent DEV, o PO deve:
 
-- [ ] Verificar se todos os itens do checklist do DEV estão marcados
-- [ ] Verificar se tudo foi implementado conforme o critério de aceite
-- [ ] Confirmar que não há pendências ou itens em aberto
-- [ ] Informar ao usuário que a task está finalizada
-- [ ] Mover a task de `.kiro/tasks/doing/` para `.kiro/tasks/done/`
-- [ ] Fazer commit e push final
-- [ ] Abrir Pull Request do branch da feature contra `ia-main` usando o comando `gh pr create`
+- [x] Verificar se todos os itens do checklist do DEV estão marcados
+- [x] Verificar se tudo foi implementado conforme o critério de aceite
+- [x] Confirmar que não há pendências ou itens em aberto
+- [x] Informar ao usuário que a task está finalizada
+- [x] Mover a task de `.kiro/tasks/doing/` para `.kiro/tasks/done/`
+- [x] Fazer commit e push final
+- [x] Abrir Pull Request do branch da feature contra `ia-main` usando o comando `gh pr create`
   - O PR deve SEMPRE ser aberto do branch `002-feat-alterar-texto-botao-add-task` contra `ia-main`
   - NUNCA abrir PR contra `main` ou qualquer outro branch que não seja `ia-main`
   - Exemplo: `gh pr create --base ia-main --head 002-feat-alterar-texto-botao-add-task --title "[002] feat: Alterar texto do botão de adicionar tarefa" --body "<descricao>"`
