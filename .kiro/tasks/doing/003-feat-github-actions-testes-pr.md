@@ -86,14 +86,14 @@ jobs:
 
 - [x] Verificar se está no branch `ia-main`
 - [x] Mover esta task para `.kiro/tasks/doing/`, fazer commit e push
-- [ ] Criar o branch `003-feat-github-actions-testes-pr` a partir de `ia-main`
+- [x] Criar o branch `003-feat-github-actions-testes-pr` a partir de `ia-main`
 - [x] Verificar a versão do Node.js no `Dockerfile` do projeto
-- [ ] Criar o diretório `.github/workflows/` caso não exista
-- [ ] Criar o arquivo `.github/workflows/tests.yml` com o workflow configurado
-- [ ] Verificar se o arquivo está sintaticamente correto (YAML válido)
-- [ ] Confirmar que o workflow aponta para o branch `ia-main` como trigger
-- [ ] Fazer commit e push das alterações no branch da task
-- [ ] Informar ao PO que a task está concluída e pronta para encerramento
+- [x] Criar o diretório `.github/workflows/` caso não exista
+- [x] Criar o arquivo `.github/workflows/tests.yml` com o workflow configurado
+- [x] Verificar se o arquivo está sintaticamente correto (YAML válido)
+- [x] Confirmar que o workflow aponta para o branch `ia-main` como trigger
+- [x] Fazer commit e push das alterações no branch da task
+- [x] Informar ao PO que a task está concluída e pronta para encerramento
 
 > ⚠️ Ao finalizar todos os itens acima, avisar ao PO para que ele possa encerrar a task.
 
