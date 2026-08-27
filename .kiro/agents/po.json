@@ -8,23 +8,13 @@
   ],
   "toolAliases": {},
   "allowedTools": [
-    "write:.kiro/**",
-    "run_command:git status*",
-    "run_command:git add*",
-    "run_command:git commit*",
-    "run_command:git push*",
-    "run_command:git pull*",
-    "run_command:git checkout*",
-    "run_command:git branch*",
-    "run_command:git log*",
-    "run_command:git diff*",
-    "run_command:git mv*",
-    "run_command:gh pr create*"
+    "write"
   ],
   "resources": [
     "file://AmazonQ.md",
     "file://README.md",
-    "file://.kiro/**/*"
+    "file://.kiro/agents/po/**/*.md",
+    "file://.kiro/rules/**/*.md"
   ],
   "hooks": {},
   "toolsSettings": {},
