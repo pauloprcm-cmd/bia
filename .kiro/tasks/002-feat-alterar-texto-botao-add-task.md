@@ -46,6 +46,40 @@ Trecho esperado:
   </button>
 ```
 
+---
+
+## Checklist do Agent DEV
+
+> Marque cada item conforme for concluindo durante a implementação.
+
+- [ ] Verificar se está no branch `ia-main`
+- [ ] Mover esta task para `.kiro/tasks/doing/`, fazer commit e push
+- [ ] Criar o branch `002-feat-alterar-texto-botao-add-task` a partir de `ia-main`
+- [ ] Alterar o texto do botão em `client/src/components/AddTask.jsx` de `"Adicionar Nova Tarefa"` para `"Add New Task"`
+- [ ] Verificar se a aplicação compila sem erros
+- [ ] Confirmar que nenhuma outra alteração foi introduzida
+- [ ] Fazer commit e push das alterações no branch da task
+- [ ] Informar ao PO que a task está concluída e pronta para encerramento
+
+> ⚠️ Ao finalizar todos os itens acima, avisar ao PO para que ele possa encerrar a task.
+
+---
+
+## Encerramento — Responsabilidade do PO
+
+> O encerramento da task é **sempre responsabilidade do PO**. O agent DEV não deve mover a task para `done`.
+
+Ao ser notificado pelo agent DEV, o PO deve:
+
+- [ ] Verificar se todos os itens do checklist do DEV estão marcados
+- [ ] Verificar se tudo foi implementado conforme o critério de aceite
+- [ ] Confirmar que não há pendências ou itens em aberto
+- [ ] Informar ao usuário que a task está finalizada
+- [ ] Mover a task de `.kiro/tasks/doing/` para `.kiro/tasks/done/`
+- [ ] Fazer commit e push final
+
+---
+
 ## Tipo
 `feat`
 
