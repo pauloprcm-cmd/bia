@@ -7,10 +7,15 @@
     "*"
   ],
   "toolAliases": {},
-  "allowedTools": [],
+  "allowedTools": [
+    "read",
+    "write",
+    "execute_bash"
+  ],
   "resources": [
     "file://AmazonQ.md",
     "file://README.md",
+    "file://.kiro/agents/dev/**/*.md",
     "file://.kiro/rules/**/*.md"
   ],
   "hooks": {},

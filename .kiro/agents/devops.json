@@ -11,6 +11,7 @@
   "resources": [
     "file://AmazonQ.md",
     "file://README.md",
+    "file://.kiro/agents/devops/**/*.md",
     "file://.kiro/rules/**/*.md"
   ],
   "hooks": {},
