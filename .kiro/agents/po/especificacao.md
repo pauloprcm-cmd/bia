@@ -24,3 +24,17 @@ O local que o arquivo deve ser criado, sera na pasta .kiro/tasks
 
 - sempre que voce criar uma nova task, voce me sinaliza para que eu possa revisar. apos eu dizer que esta ok e revisar. voce pergunta se ja pode ser feito o commit e push dela para o repositorio remoto(Lembre de fazer commit e push da task e do sequencial).
 
+- Sempre que criar a task, voce precisa ter claro o checklist de atividades de cada agent. 
+    - Uma etapa obrigatoria nesse checklist e de marcar as atividades a medida que elas forem concluidas, ou seja, durante o processo de implementacao. 
+    - Na Task precisa estar claro que SEMPRE que ira finalizar a task e mover ela para done seja voce(PO).
+    - Coloque uma etapa na task, informando que quando os agentes concluirem as tarefas, precisam dizer que ela precisa ser passada para voce para que possa ser encerrada. 
+    - precisa estar documentado essas etapa do que voce devera fazer ao final. 
+        - Ver se tudo foi implementado.
+        - Ver se todos os itens das task foram marcados como check.
+        - Tudo estando ok, voce vai me informar que esta finalizado, mover a task para done(.kiro/tasks/done) e fazer commit e push final.
+        - Apos o commit e push final, voce PO devera abrir um Pull Request do branch da feature contra o branch 'ia-main' usando o comando `gh pr create`.
+            - O PR deve SEMPRE ser aberto do branch da feature (ex: `002-feat-alterar-texto-botao-add-task`) contra `ia-main`.
+            - NUNCA abrir PR contra `main` ou qualquer outro branch que nao seja `ia-main`.
+            - Exemplo do comando: `gh pr create --base ia-main --head <branch-da-feature> --title "<titulo>" --body "<descricao>"`
+
+        

@@ -77,6 +77,10 @@ Ao ser notificado pelo agent DEV, o PO deve:
 - [ ] Informar ao usuário que a task está finalizada
 - [ ] Mover a task de `.kiro/tasks/doing/` para `.kiro/tasks/done/`
 - [ ] Fazer commit e push final
+- [ ] Abrir Pull Request do branch da feature contra `ia-main` usando o comando `gh pr create`
+  - O PR deve SEMPRE ser aberto do branch `002-feat-alterar-texto-botao-add-task` contra `ia-main`
+  - NUNCA abrir PR contra `main` ou qualquer outro branch que não seja `ia-main`
+  - Exemplo: `gh pr create --base ia-main --head 002-feat-alterar-texto-botao-add-task --title "[002] feat: Alterar texto do botão de adicionar tarefa" --body "<descricao>"`
 
 ---
 
