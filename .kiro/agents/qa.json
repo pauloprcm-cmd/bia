@@ -2,7 +2,17 @@
   "name": "qa",
   "description": "",
   "prompt": null,
-  "mcpServers": {},
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {},
+      "timeout": 120000,
+      "disabled": false
+    }
+  },
   "tools": [
     "*"
   ],
