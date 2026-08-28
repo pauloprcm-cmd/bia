@@ -1,5 +1,6 @@
 import React from "react";
-import { FaSun, FaMoon } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { FaSun, FaMoon, FaChartBar } from "react-icons/fa";
 import { useTheme } from "../contexts/ThemeContext.jsx";
 import VersionInfo from "./VersionInfo";
 
@@ -10,6 +11,13 @@ const Header = ({ title }) => {
     <header className="header">
       <h1>{title}</h1>
       <div className="header-controls">
+        <Link
+          to="/dashboard"
+          className="header-dashboard-link"
+          title="Ver Dashboard"
+        >
+          <FaChartBar />
+        </Link>
         <VersionInfo />
         <button 
           className="theme-toggle" 
